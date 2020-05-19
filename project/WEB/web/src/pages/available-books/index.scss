@@ -1,0 +1,66 @@
+.available-books-list-page {
+    text-align: center;
+    margin-top: 25px;
+
+    .ant-table-thead > tr > th {
+        background: #686058;
+        color: white;
+    }
+
+    .ant-tabs-nav-wrap {
+        text-align: left;
+    }
+
+    .left-panel {
+        padding: 0px 25px;
+    }
+    
+    .right-panel {
+        height: 100%;
+        text-align: left;
+        border: 1px solid #686058;
+        padding: 15px 10px;
+        margin-left: -12px;
+    
+        .input-margin {
+            margin-top: 15px;
+        }
+    
+        .ant-btn {
+            background: #686058;
+            color: white;
+        }
+    }
+
+    .right-panel-header {
+        margin-left: -12px;
+    }
+}
+
+.save-changes-btn {
+    background: #686058;
+    color: white;
+}
+
+.to-left {
+    text-align: left;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.book-details-page {
+    text-align: center;
+
+    .book-name {
+        width: 50%;
+        margin-top: 35px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .ant-select-disabled.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+        background: white !important;
+    }
+}

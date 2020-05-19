@@ -1,0 +1,38 @@
+.users-list-page {
+    text-align: center;
+    margin-top: 25px;
+
+    .ant-table-thead > tr > th {
+        background: #686058;
+        color: white;
+    }
+
+    .left-panel {
+        padding: 0px 25px;
+    }
+    
+    .right-panel {
+        height: 100%;
+        text-align: left;
+        border: 1px solid #686058;
+        padding: 15px 10px;
+        margin-left: -12px;
+    
+        .input-margin {
+            margin-top: 15px;
+        }
+    
+        .ant-btn {
+            background: #686058;
+            color: white;
+        }
+    }
+}
+
+.to-left {
+    text-align: left;
+}
+
+.full-width {
+    width: 100%;
+}

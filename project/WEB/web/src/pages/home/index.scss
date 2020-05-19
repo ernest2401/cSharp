@@ -1,0 +1,84 @@
+.main-page {
+    text-align: center;
+
+    .left-panel {
+        background-image: url(https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1153&q=80);
+        height: 100vh;
+
+        .big-word {
+            font-size: 80px;
+            color: #ffffff;
+            margin-bottom: 0;
+        }
+
+        .start-work-btn {
+            height: 68px;
+            font-size: x-large;
+            padding: 10px 40px;
+            font-weight: bold;
+        }
+    }
+
+    .right-panel {
+        background: #686058;
+        padding: 35px 25px;
+        text-align: center;
+        height: 100vh;
+
+        .smart-library-text {
+            margin-bottom: 25px;
+            color: white;
+        }
+
+        .sign-in {
+            width: 50%;
+            background: white;
+        }
+
+        .register-message {
+            margin-top: 15px;
+            color: white;
+
+                .ant-btn-link {
+                padding-left: 5px;
+                color: #6cb5f8;
+                margin-top: 1px;
+            }
+        }
+    }
+}
+
+.registration-modal {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.registration-btn {
+    background-color: #686058;
+    width: 50%;
+    margin-top: 20px;
+    color: white;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.ant-form-item-has-error .ant-form-item-explain {
+    text-align: center;
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover, 
+.ant-menu-horizontal > .ant-menu-item, 
+.ant-menu-horizontal > .ant-menu-submenu:hover, 
+.ant-menu-horizontal > .ant-menu-item-active, 
+.ant-menu-horizontal > .ant-menu-submenu-active, 
+.ant-menu-horizontal > .ant-menu-item-open, 
+.ant-menu-horizontal > .ant-menu-submenu-open, 
+.ant-menu-horizontal > .ant-menu-item-selected, 
+.ant-menu-horizontal > .ant-menu-submenu-selected {
+   border-bottom: none;
+}
